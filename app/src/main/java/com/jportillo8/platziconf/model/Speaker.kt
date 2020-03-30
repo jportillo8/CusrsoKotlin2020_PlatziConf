@@ -1,13 +1,14 @@
 package com.jportillo8.platziconf.model
 
 class Speaker {
+    //var para asignarle un valor mas adelante
     var name = ""
-    var joptitle = ""
+    var jobtitle = ""
     var workplace = ""
     var biography = ""
-    var twiter = ""
+    var twitter = ""
     var image = ""
-
+    var category = 0
 
 
 }

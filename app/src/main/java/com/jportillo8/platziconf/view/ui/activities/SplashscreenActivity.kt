@@ -1,4 +1,4 @@
-package com.jportillo8.platziconf.ui.activities
+package com.jportillo8.platziconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

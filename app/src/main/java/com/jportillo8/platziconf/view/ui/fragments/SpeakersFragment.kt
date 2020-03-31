@@ -1,4 +1,4 @@
-package com.jportillo8.platziconf.ui.fragments
+package com.jportillo8.platziconf.view.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,14 +11,14 @@ import com.jportillo8.platziconf.R
 /**
  * A simple [Fragment] subclass.
  */
-class UbicationFragment : Fragment() {
+class SpeakersFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ubication, container, false)
+        return inflater.inflate(R.layout.fragment_speakers, container, false)
     }
 
 }

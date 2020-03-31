@@ -1,16 +1,8 @@
-package com.jportillo8.platziconf
+package com.jportillo8.platziconf.view.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.Navigation
-import androidx.navigation.ui.NavigationUI
-import com.google.firebase.firestore.FirebaseFirestore
-import com.jportillo8.platziconf.model.Conference
-import com.jportillo8.platziconf.model.Speaker
-import kotlinx.android.synthetic.main.activity_main.*
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.jportillo8.platziconf.R
 
 class MainActivity : AppCompatActivity() {
 

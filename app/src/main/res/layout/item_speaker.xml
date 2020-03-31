@@ -14,12 +14,14 @@
         android:background="@drawable/shape_parrafo">
 
         <ImageView
+            android:id="@+id/ivItemSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/altoImageViewHome"
             android:src="@mipmap/ic_launcher"
             android:layout_margin="10dp"/>
 
         <TextView
+            android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombre Expositor"
@@ -29,6 +31,7 @@
             android:gravity="center_horizontal"/>
 
         <TextView
+            android:id="@+id/tvItemSpeakerJob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Trabajo Expositor"

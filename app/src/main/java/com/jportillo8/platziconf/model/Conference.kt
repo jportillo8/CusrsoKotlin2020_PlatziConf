@@ -1,8 +1,9 @@
 package com.jportillo8.platziconf.model
 
+import java.io.Serializable
 import java.util.*
-
-class Conference {
+//Podemos pasar este objeto entre activitis
+class Conference: Serializable {
     //Inicializacion Vacia sin tener que dar un valor inicial
     lateinit var title: String
     lateinit var description: String

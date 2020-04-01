@@ -4,9 +4,11 @@ import androidx.lifecycle.MutableLiveData
 import com.jportillo8.platziconf.model.Speaker
 import com.jportillo8.platziconf.network.Callback
 import com.jportillo8.platziconf.network.FirestoreService
+import androidx.lifecycle.ViewModel
+
 import java.lang.Exception
 
-class SpeakerViewModel {
+class SpeakerViewModel: ViewModel() {
     val firestoreService = FirestoreService()
     var listSpeaker: MutableLiveData<List<Speaker>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()

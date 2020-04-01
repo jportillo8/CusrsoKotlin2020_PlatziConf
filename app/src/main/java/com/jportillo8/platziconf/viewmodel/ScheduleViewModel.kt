@@ -1,12 +1,13 @@
 package com.jportillo8.platziconf.viewmodel
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.jportillo8.platziconf.model.Conference
 import com.jportillo8.platziconf.network.Callback
 import com.jportillo8.platziconf.network.FirestoreService
 
 //Comunicar firestore con UI
-class ScheduleViewModel {
+class ScheduleViewModel : ViewModel(){
     val firestoreService = FirestoreService()
 
     //viewModel con livedata

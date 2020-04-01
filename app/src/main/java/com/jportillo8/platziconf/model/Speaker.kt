@@ -1,6 +1,8 @@
 package com.jportillo8.platziconf.model
 
-class Speaker {
+import java.io.Serializable
+
+class Speaker: Serializable {
     //var para asignarle un valor mas adelante
     var name = ""
     var jobtitle = ""

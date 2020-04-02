@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_scheduleFragment"
             app:destination="@id/navScheduleFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
     </fragment>
     <fragment
         android:id="@+id/navScheduleFragment"
@@ -65,5 +68,13 @@
         android:name="com.jportillo8.platziconf.view.ui.fragments.UbicationDetailDialogFragment"
         android:label="UbicationDetailFragmentDialog"
         tools:layout="@layout/fragment_ubication_detail_dialog" />
-
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.jportillo8.platziconf.view.ui.fragments.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_navHomeFragment"
+            app:destination="@id/navHomeFragment" />
+    </fragment>
 </navigation>

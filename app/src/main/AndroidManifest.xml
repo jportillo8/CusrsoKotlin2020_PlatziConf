@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.jportillo8.platziconf.view.ui.activities.SplashscreenActivity"></activity>
+        <activity android:name=".view.ui.activities.Main2Activity"></activity>
+        <activity android:name=".view.ui.activities.TestActivity" />
+        <activity android:name=".view.ui.activities.SplashscreenActivity" />
         <activity android:name=".view.ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

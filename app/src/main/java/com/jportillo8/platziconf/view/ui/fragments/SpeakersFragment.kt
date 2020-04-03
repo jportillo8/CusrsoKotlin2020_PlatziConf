@@ -41,7 +41,7 @@ class SpeakersFragment : Fragment(), SpeakerListener {
         speakerAdapter = SpeakerAdapter(this)
 
         rvSpeaker.apply {
-            layoutManager = GridLayoutManager(context, 3)
+            layoutManager = GridLayoutManager(context, 2)
             adapter = speakerAdapter
         }
         observerViewModel()

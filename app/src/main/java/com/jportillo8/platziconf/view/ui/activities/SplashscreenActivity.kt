@@ -22,7 +22,7 @@ class SplashscreenActivity : AppCompatActivity() {
 
         animacion.setAnimationListener(object : Animation.AnimationListener{
             override fun onAnimationRepeat(animation: Animation?) {
-                TODO("Not yet implemented")
+
             }
 
             override fun onAnimationEnd(animation: Animation?) {
@@ -31,7 +31,7 @@ class SplashscreenActivity : AppCompatActivity() {
             }
 
             override fun onAnimationStart(animation: Animation?) {
-                TODO("Not yet implemented")
+
             }
 
         })
